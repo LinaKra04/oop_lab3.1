@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People", "People.csproj", "{81C9DEB1-C379-453B-A9FB-8023170FF47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IO stream", "..\IO stream\IO stream.csproj", "{32C85E43-4E1D-4B10-8026-73843FC008C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{81C9DEB1-C379-453B-A9FB-8023170FF47E} = {81C9DEB1-C379-453B-A9FB-8023170FF47E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4D9A596-AA21-4BCC-94AA-2352A82423CA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81C9DEB1-C379-453B-A9FB-8023170FF47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C9DEB1-C379-453B-A9FB-8023170FF47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C9DEB1-C379-453B-A9FB-8023170FF47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C9DEB1-C379-453B-A9FB-8023170FF47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C85E43-4E1D-4B10-8026-73843FC008C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C85E43-4E1D-4B10-8026-73843FC008C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C85E43-4E1D-4B10-8026-73843FC008C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C85E43-4E1D-4B10-8026-73843FC008C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A6DDA87-F392-4CE5-BC91-3DD0D2DE7230}
+	EndGlobalSection
+EndGlobal
